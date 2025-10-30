@@ -16,18 +16,18 @@ const cardElement = document.getElementById('card')
 
 // console.log(inputElement.value)
 
-const notes = ['записать блок про массивы', 'рассказать теорию объектов']
+// const notes = ['записать блок про массивы', 'рассказать теорию объектов']
 
-function render(){
+// function render(){
 
-    // for (let i = 0; i < notes.length; i++){
-    //     cardElement.insertAdjacentHTML('beforeend', getNoteTemplate(notes[i]))
-    // }
+//     // for (let i = 0; i < notes.length; i++){
+//     //     cardElement.insertAdjacentHTML('beforeend', getNoteTemplate(notes[i]))
+//     // }
 
-    for(let note of notes){
-        cardElement.insertAdjacentHTML('beforeend', getNoteTemplate(note))
-    }
-}
+//     for(let note of notes){
+//         cardElement.insertAdjacentHTML('beforeend', getNoteTemplate(note))
+//     }
+// }
 
 //render()
 
@@ -55,3 +55,4 @@ function getNoteTemplate(title){
     `
 
 }
+

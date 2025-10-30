@@ -29,7 +29,7 @@ function render(){
     }
 }
 
-render()
+//render()
 
 createBtn.onclick = function () {
     if (inputElement.value.length === 0){
@@ -53,4 +53,5 @@ function getNoteTemplate(title){
         </div>
     </li>
     `
+
 }

@@ -20,7 +20,7 @@ main{
 }
 
 .hero__input{
-    width: 550px;
+    width: 800px;
     height: 35px;
     border: 1px solid black ;
     border-radius: 3px;
@@ -34,7 +34,7 @@ main{
 .hero__add{
     margin-top: 5px;
     height: 35px;
-    width: 554px;
+    width: 800px;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid rgb(0, 185, 185);
     border-radius: 4px;
@@ -55,7 +55,7 @@ main{
     margin-top: 8px;
     height: 50px;
     font-size: 20px;
-    
+    width: 800px;
 }
 
 li{
@@ -68,7 +68,11 @@ li{
 
 .hero__p{
     margin-left: 20px;
+}
 
+.hero__p-line-trought{
+   margin-left: 20px;
+   text-decoration: line-through; 
 }
 
 .hero__card__btn{
@@ -87,6 +91,15 @@ li{
     cursor: pointer;
 }
 
+.hero__card__btn1-warning{
+    border: 0;
+    background-color: rgb(189, 189, 0);
+    color: white;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
 
 .hero__card__btn2{
     border: 0;
@@ -98,6 +111,6 @@ li{
     cursor: pointer;
 }
 
-.hero__card__btn1:hover,.hero__card__btn2:hover{
+.hero__card__btn1:hover,.hero__card__btn2:hover,.hero__card__btn1-warning:hover{
     filter: brightness(80%);
 }
